@@ -6,7 +6,7 @@
 let arr = createArray(2, 9);
 console.log(arr); // [2,3,4,5,6,7,8,9]*/
 
-let numArray = [];
+/*let numArray = [];
 
 function createArray(min, max) {
   for (let i = min; i <= max; i++) {
@@ -21,7 +21,7 @@ console.log(numArray);
 Задані цілі числа a і b (a < b). Виведіть усі цілі числа від a до b включно, при цьому a виводится 1 раз,
  число а+1 - два рази і т.д.
 */
-let count = 0;
+/*let count = 0;
 
 function showNumbers(a, b) {
   for (let i = a; i <= b; ++i) {
@@ -37,7 +37,7 @@ showNumbers(3, 8);
 /*Напишіть функцію randArray(k), яка заповнюватиме масив k випадковими цілими числами. Випадкові числа генеруються із діапазону 1-500.
 randArray(5);  // [399,310,232,379,40]*/
 
-let randomArray = [];
+/*let randomArray = [];
 
 function randArray(k) {
   for (let i = 0; i < k; i++) {
@@ -56,7 +56,7 @@ const arr = [5, 3, 4, 5,6,7,3];
 const arr2 = compact(arr);
 console.log(arr2) ; // [5,3,4,6,7]*/
 
-let newArray2 = [0, 12, 35, 78, 52, 12, 35, 37, 89, 96, 0];
+/*let newArray2 = [0, 12, 35, 78, 52, 12, 35, 37, 89, 96, 0];
 
 function changeArray(arr) {
   arr.sort((a, b) => a - b);
@@ -72,7 +72,7 @@ changeArray(newArray2);
 Написати функцію яка виведе нові масиви які складаються із даних початкового масиву, але одного типу даних 
 (не приводити тип стрінг в число навіть якщо там лише число)*/
 
-let numberArray = [];
+/*let numberArray = [];
 let stringArray = [];
 
 function sortArray(arr) {
@@ -111,7 +111,7 @@ console.log(stringArray);
 /*6.Напишіть функцію calc(a, b, op), яка виконує над числами a і b одну із арифметичних операцій та повертає її результат. Вид операції визначається цілим числом
  op: 1 – віднімання, 2 – добуток, 3 – ділення, інші значення – додавання.*/
 
-function calculateNums(a, b, op) {
+/*function calculateNums(a, b, op) {
   if (op === 1) {
     return a - b;
   } else if (op === 2) {
@@ -128,7 +128,7 @@ console.log(calculateNums(19, 29, 9));
 /*7.Напишіть функцію findUnique(arr), яка приймає масив arr і перевіряє на унікальність його елементи.
   Якщо всі елементи масиву унікальні (не мають дублів), то функція поверне true, інакше - false.*/
 
-function findUnique(array) {
+/*function findUnique(array) {
   for (let i = 0; i < array.length; ++i) {
     if (array[i] === array[i + 1]) {
       return false;
@@ -137,4 +137,4 @@ function findUnique(array) {
   return true;
 }
 
-console.log(findUnique([3, 4, 5, 6, 7, 9]));
+console.log(findUnique([3, 4, 5, 6, 7, 9]));*/
