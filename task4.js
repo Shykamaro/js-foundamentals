@@ -38,7 +38,7 @@ console.log(sumSliceArray(newArr, 0, 5));
   У всіх інших випадках користувач отримає доступ до перегляду фільму. 
   У блоці catch передбачена можливість виведення назви та опису помилки.
   */
-/*
+
 function checkAge() {
   let name = window.prompt("What is your name?");
   let age = window.prompt("How old are you?");
@@ -68,7 +68,7 @@ try {
 } catch (err) {
   console.log(err.name, err.message);
 }
-*/
+
 /*
   3.
 Реалізуйте функцію calcRectangleArea(width, height), яка приймає 2 параметри ширина прямокутника width і висота 
